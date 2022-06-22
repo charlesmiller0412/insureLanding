@@ -310,27 +310,34 @@ footer hr {
     }
 
     #nav__desktop-links a {
-        color: hsl(270, 9%, 17%);
+        display: block;
+        color: hsl(273, 4%, 51%);
         text-decoration: none;
         text-transform: uppercase;
         margin: 0 30px;
+    }
+
+    #nav__desktop-links a:hover {
+        color: hsl(270, 9%, 17%);
     }
 
     #nav__desktop-links li {
         text-align: center;
     }
 
-    #nav__desktop li:nth-of-type(4) {
-        width: 145px;
+    #nav__desktop-links a:nth-of-type(4) :hover {
+        color: #fff;
     }
 
-    #nav__desktop-links a:nth-of-type(4) {
+    #nav__desktop-links li:nth-of-type(4) a {
+        color: hsl(270, 9%, 17%);
+        display: block;
         border: 2px solid black;
-        padding: 13px 25px;
+        padding: 13px 30px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
 
-    #nav__desktop-links a:nth-of-type(4):hover {
+    #nav__desktop-links li:nth-of-type(4) a:hover {
         background-color: hsl(270, 9%, 17%);
         color: #fff;
     }
@@ -402,6 +409,7 @@ footer hr {
 
     #howWeWork .button {
         width: auto;
+        height: auto;
     }
 
     #howWeWork .button:hover {
