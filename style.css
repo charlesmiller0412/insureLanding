@@ -8,8 +8,8 @@ body {
     color: hsl(270, 9%, 17%);
 }
 
-h1,
-h2 {
+h2,
+h3 {
     font-family: "DM Serif Display", serif;
     color: hsl(270, 9%, 17%);
 }
@@ -113,7 +113,7 @@ main {
     z-index: 0;
 }
 
-#humanizing h1 {
+#humanizing h2 {
     font-family: "DM Serif Display", serif;
     font-weight: 400;
     font-size: 3rem;
@@ -143,12 +143,12 @@ main {
     padding: 8.75rem 1.5rem;
 }
 
-#different h1 {
+#different h2 {
     font-size: 3rem;
     margin-bottom: 5rem;
 }
 
-#different h2 {
+#different h3 {
     font-size: 1.75rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -189,7 +189,7 @@ main {
     z-index: 0;
 }
 
-#howWeWork h2 {
+#howWeWork h3 {
     position: relative;
     font-size: 40px;
     line-height: 40px;
@@ -359,7 +359,7 @@ footer hr {
         margin-bottom: 60px;
     }
 
-    #humanizing__text h1 {
+    #humanizing__text h2 {
         font-size: 72px;
     }
 
@@ -399,7 +399,7 @@ footer hr {
         padding: 0 80px;
     }
 
-    #howWeWork h2 {
+    #howWeWork h3 {
         font-size: 56px;
         font-weight: 400;
         line-height: 56px;
